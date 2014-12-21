@@ -1,0 +1,8 @@
+name: gentoo
+version: 1.0.0
+description: Run any command inside the Gentoo chroot created by attilaolah/gentoo
+kyewords:
+  - gentoo
+properties:
+  command:
+    type: string
