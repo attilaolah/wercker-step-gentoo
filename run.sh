@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo chroot "/gentoo" sh -c "${WERCKER_GENTOO_COMMAND}"
+echo "${WERCKER_GENTOO_COMMAND}" | sudo chroot "/gentoo" sh
