@@ -15,8 +15,8 @@ build:
         command: echo "This is a command."
     - attilaolah/gentoo:
         command: |
-          echo "This is a multi-line command.
-          echo "It will all be executed by a single call to 'sh -c'."
+          echo "This is a multi-line command."
+          echo "It will all be executed by a single shell call."
 ```
 
 [1]: //github.com/attilaolah/wercker-box-gentoo
